@@ -1,0 +1,24 @@
+{
+  "name": "cursefetch",
+  "version": "1.0.0",
+  "description": "CurseForge modpack extractor.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coadon/CurseFetch.git"
+  },
+  "author": "Coadon_Pile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Coadon/CurseFetch/issues"
+  },
+  "homepage": "https://github.com/Coadon/CurseFetch#readme",
+  "dependencies": {
+    "puppeteer": "^24.8.2"
+  }
+}
