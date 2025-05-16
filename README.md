@@ -35,9 +35,7 @@ The file name is the hard part. However, this information is explicitly listed i
 
 The project homepage is usually linked by --
 `https://www.curseforge.com/minecraft/modpacks/[PROJECT NAME]`
--- and is also what is listed in the `modlist.html` of every modpack, which we will also scrape.
-
-The order of the `modlist.html` and `manifest.json` matches. Thus, the mod files may be downloaded in bulk.
+-- and we can find using `https://cflookup.com/[PROJECT ID]` which we must scrape (it does not have an api).
 
 CurseForge---your website looked like sb shat on it, please fix it.
 
